@@ -105,3 +105,53 @@ button:hover{
     display: flex;
     justify-content: space-between;
 }
+
+.course{
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.course img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.course h2{
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+
+.course p {
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
+
+.course .price {
+    font-size: 1.1em;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.course a{
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.course a:hover {
+    background-color: #2980b9;
+}
+
+.courses-container{
+    display: flex;
+    justify-content: space-between;
+}
