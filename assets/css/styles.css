@@ -70,7 +70,7 @@ form{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-input {
+input, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 16px;
@@ -90,4 +90,18 @@ button {
 
 button:hover{
     background-color: #555;
+}
+
+.form-container, .address-container {
+    width: 48%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contactos-container {
+    display: flex;
+    justify-content: space-between;
 }

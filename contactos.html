@@ -22,8 +22,40 @@
     </header>
 
     <!-- Esta tag serve para dividir as seccoes -->
-    <section>
-        Aqui virá o conteudo da pagina Contactos
+    <section class="contactos-container">
+        <!-- FOrmulario de contactos-->
+        <div class="form-container">
+            <h2>Formulário de Contactos</h2>
+            <div>
+                <label for="nome"> Nome:</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+            </div>
+
+            <div>
+                <button type="submit"> Enviar Mensagem</button>
+            </div>
+        </div>
+
+        <!--- Detalhes de contacto-->
+        <div class="address-container">
+            <h2>Endereço da Empresa</h2>
+            <p>Rua da Empresa, 123</p>
+            <p>Cidade, País</p>
+
+            <p>Telefone: +258 21 456 789</p>
+
+            <p>Email: info@empresa.com</p>
+        </div>
     </section>
 
     <!-- Esta tag serve para definir o rodapé -->
