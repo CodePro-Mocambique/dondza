@@ -13,10 +13,10 @@
         <!-- A tag nav serve para criar menus de navegacao -->
         <nav>
             <ul>
-                <li> <a href="index.html"> Inicio</a></li>
-                <li> <a href="sobre-nos.html"> Sobre nós</a></li>
-                <li> <a href="contactos.html"> Contactos</a></li>
-                <li> <a href="login.html"> Entrada </a></li>
+                <li> <a href="index.php"> Inicio</a></li>
+                <li> <a href="sobre-nos.php"> Sobre nós</a></li>
+                <li> <a href="contactos.php"> Contactos</a></li>
+                <li> <a href="login.php"> Entrada </a></li>
             </ul>
         </nav>
     </header>
