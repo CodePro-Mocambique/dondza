@@ -23,24 +23,26 @@
 
     <!-- Esta tag serve para dividir as seccoes -->
     <section class="login-container">
-        <form id="loginForm">
-            <label>Nome do utilizador:</label>
-            <input type="text" id="username" name="username">
-
-            <label>Palavra-passe</label>
-            <input type="password" id="password" name="password">
-
-            <button type="button">Entrar</button>
-
+        <form id="loginForm"  onsubmit="return validateLoginForm()">
+            <div>
+                <label for="username">Nome de Utilizador:</label>
+                <input type="text" id="username" name="username" required>
+                <span id="usernameError" class="error"></span>
+            </div>
+            <div>
+                <label for="password">Palavra-passe:</label>
+                <input type="password" id="password" name="password" >
+                <span id="passwordError" class="error"></span>
+            </div>
+            
+            <button type="submit">Entrar</button>
         </form>
     </section>
-
-    <!-- Esta tag serve para definir o rodapé -->
     <footer>
-        <p>&copy; 2024. Todos direitos reservados.</p>
-        <a href="https://codeprogroup.com" target="_blank"> CodePro</a>
+        <p>&copy; 2024. Todos os direitos reservados.</p>
+        <a href="https://codeprogroup.com" target="_blank">CodePro</a>
     </footer>
 
+    <script src="assets/js/script.js"></script>
 </body>
-
 </html>
