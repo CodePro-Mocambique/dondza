@@ -4,7 +4,7 @@ include_once 'header.php';
 
     <!-- Esta tag serve para dividir as seccoes -->
     <section class="login-container">
-        <form id="loginForm"  onsubmit="return validateLoginForm()">
+        <form action="process.php" method="post" id="loginForm"  onsubmit="return validateLoginForm()">
             <div>
                 <label for="username">Nome de Utilizador:</label>
                 <input type="text" id="username" name="username" required>

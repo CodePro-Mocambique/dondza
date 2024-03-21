@@ -7,7 +7,7 @@
         <!-- FOrmulario de contactos-->
         <div class="form-container">
             <h2>Formulário de Contactos</h2>
-            <form id="contactForm" onsubmit="return validateContactForm()">
+            <form method="post" action="process.php" id="contactForm" onsubmit="return validateContactForm()">
                 <div>
                     <label for="nome"> Nome:</label>
                     <input type="text" id="nome" name="nome" required>
